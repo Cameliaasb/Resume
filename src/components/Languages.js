@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { callGithubAPI } from './GithubAPI';
 
 const Languages = ({ url }) => {
@@ -10,13 +10,7 @@ const Languages = ({ url }) => {
   })
 
   return (
-    <div>
-      {
-        Object.keys(data).map((language) => (
-          <span key={language}> {language} </span>
-        ))
-      }
-    </div>
+        Object.keys(data)
   );
 };
 

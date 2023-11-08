@@ -1,8 +1,10 @@
 import React from 'react';
-
+import Navbar from '../components/Navbar';
 const Bio = () => {
   return (
+
     <div>
+      <Navbar />
       <p>Hi, I'm Camelia Assobhei, a Backend Engineer with a passion for web development.  </p>
       <p>
         I transitioned from a career as a financial analyst after attending Le Wagon's web development bootcamp.

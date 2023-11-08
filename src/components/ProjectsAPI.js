@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Languages from './Languages';
+import Card from './Card';
 import { callGithubAPI } from './GithubAPI';
 
 
@@ -16,13 +17,10 @@ const ProjectsAPI = () => {
   return (
     <div>
       {
-        data.map((project) => (
-          <div key={project.name}>
-            {
-              project.name
-            }
-            <Languages url={project.languages_url} />
-          </div>
+        data.map((project, index) => (
+          <Card key={project.id}
+            project={project}
+            languages={<Languages url={project.languages_url} />} />
         ))
       }
 
