@@ -1,0 +1,20 @@
+.navbar {
+  display:          flex;
+  font-size:        24px;
+  margin-bottom:    40px;
+  gap:              30px;
+
+  .nav {
+    padding:        8px 48px 8px 0px;
+  }
+
+  .nav-active {
+    font-weight:    bold;
+    color:          $secondary-color;
+    border-bottom:  2px solid $secondary-color;
+  }
+
+
+
+
+}

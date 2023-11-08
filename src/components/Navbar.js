@@ -4,11 +4,11 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
 
   return (
-    <div>
-      <NavLink to="/bio"> Bio</NavLink>
-      <NavLink to="/projects"> Projects</NavLink>
-      <NavLink to="/resume"> Resume </NavLink>
-      <NavLink to="/contact"> Contact</NavLink>
+    <div className="navbar">
+      <NavLink to="/bio"        className={(nav) => (nav.isActive? "nav-active" : "")+ " nav"} > Bio       </NavLink>
+      <NavLink to="/projects"   className={(nav) => (nav.isActive? "nav-active" : "")+ " nav"} > Projects  </NavLink>
+      <NavLink to="/resume"     className={(nav) => (nav.isActive? "nav-active" : "")+ " nav"} > Resume    </NavLink>
+      <NavLink to="/contact"    className={(nav) => (nav.isActive? "nav-active" : "")+ " nav"} > Contact   </NavLink>
     </div>
   );
 };

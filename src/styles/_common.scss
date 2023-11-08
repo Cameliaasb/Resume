@@ -1,0 +1,63 @@
+$primary-color:     black;
+$secondary-color:   #727959;
+$light-color:       #ABB194;
+$light-grey:        #F6F6F6;
+
+
+#root {
+  padding-inline:   16px;
+  display:          flex;
+  justify-content:  space-between;
+  align-items:      center;
+  margin-top:       3rem;
+}
+
+
+body {
+  background-color:   $light-grey;
+}
+
+
+a {
+  text-decoration:    none;
+  color:              $primary-color;
+}
+
+*,
+*::before,
+*::after {
+  font-family:       'Noto Sans', sans-serif;
+  margin:             0;
+  padding:            0;
+  box-sizing:         border-box;
+}
+
+
+
+/* responsive for large than 575px screen */
+@media (min-width: 575px) {
+  #root {
+    max-width: 540px;
+    width: 100%;
+    margin-inline: auto;
+}}
+
+/* responsive for large than 768px screen*/
+@media (min-width: 768px) {
+  #root { max-width: 720px; }
+}
+
+/* responsive for large than 992px screen */
+@media (min-width: 992px) {
+  #root { max-width: 960px; }
+}
+
+/* responsive for large than 1200px screen */
+@media (min-width: 1200px) {
+  #root { max-width: 1140px; }
+}
+
+/* responsive for large than 1400px screen */
+@media (min-width: 1400px) {
+  #root { max-width: 1320px; }
+}

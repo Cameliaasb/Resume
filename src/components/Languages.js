@@ -1,16 +1,17 @@
-import { useEffect, useState } from 'react';
-import { callGithubAPI } from './GithubAPI';
+import { useEffect, useState }  from 'react';
+import { callGithubAPI }        from './GithubAPI';
 
 const Languages = ({ url }) => {
+  // languages used in repo are stored in URL, so a second API call is needed
 
-  const [data, setData] = useState([])
+  const [projectLanguages, setProjectLanguagees] = useState([])
   useEffect(() => {
     callGithubAPI(url)
-      .then((response) => setData(response.data))
+      .then((response) => setProjectLanguagees(response.data))
   })
 
   return (
-        Object.keys(data)
+    Object.keys(projectLanguages)
   );
 };
 

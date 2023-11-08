@@ -8,7 +8,7 @@ import Contact      from './pages/Contact';
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <BrowserRouter>
         <Routes>
           <Route path="/"           element={<Bio       />}> </Route>
