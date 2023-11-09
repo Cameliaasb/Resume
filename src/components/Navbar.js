@@ -13,10 +13,10 @@ const Navbar = () => {
       <h3> Camelia </h3>
 
       <div className='links'>
-        <NavLink to="/bio"        className={(nav) => (nav.isActive? "nav-active" : "")} > Bio       </NavLink>
-        <NavLink to="/projects"   className={(nav) => (nav.isActive? "nav-active" : "")} > Projects  </NavLink>
-        <NavLink to="/resume"     className={(nav) => (nav.isActive? "nav-active" : "")} > Resume    </NavLink>
-        <NavLink to="/contact"    className={(nav) => (nav.isActive? "nav-active" : "")} > Contact   </NavLink>
+        <NavLink to="/bio"        className={(nav) => (nav.isActive? "nav-active" : "")} > BIO       </NavLink>
+        <NavLink to="/projects"   className={(nav) => (nav.isActive? "nav-active" : "")} > PROJECTS  </NavLink>
+        <NavLink to="/resume"     className={(nav) => (nav.isActive? "nav-active" : "")} > RESUME    </NavLink>
+        <NavLink to="/contact"    className={(nav) => (nav.isActive? "nav-active" : "")} > CONTACT   </NavLink>
       </div>
 
       <div className="links">
