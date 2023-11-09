@@ -11,7 +11,7 @@ const Languages = ({ url }) => {
   })
 
   return (
-    Object.keys(projectLanguages)
+    Object.keys(projectLanguages).map((key) => <div className='pill'> {key} </div>)
   );
 };
 

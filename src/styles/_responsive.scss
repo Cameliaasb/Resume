@@ -1,0 +1,31 @@
+/* responsive for larger than 575px screen */
+@media (min-width: 575px) {
+  #root {
+    max-width:     540px;
+    width:         100%;
+    margin-inline: auto;
+}
+}
+
+/* responsive for larger than 768px screen*/
+@media (min-width: 768px) {
+  #root { max-width: 720px; }
+  .two-cols{
+    grid-template-columns: 1fr 1fr;
+  }
+  .img-col{
+    grid-template-columns: 0.5fr 1fr;
+  }
+
+}
+
+/* responsive for larger than 992px screen */
+@media (min-width: 992px) {
+  #root { max-width: 960px; }
+}
+
+/* responsive for larger than 1200px screen */
+@media (min-width: 1200px) {
+  #root { max-width: 1140px; }
+
+}

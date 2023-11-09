@@ -1,0 +1,44 @@
+.intro {
+  text-align:     center;
+  padding:        0 8%;
+  margin-bottom:  20px;
+}
+.card {
+  display:        flex;
+  flex-direction: column;
+  padding:        2rem;
+  margin:         1rem;
+  height:         max-content;
+  border-radius:  $border-radius;
+  color:         white;
+}
+
+.clickable {
+  text-align: center;
+}
+
+
+$color1:             $secondary-color;
+$color2:             $light-color;
+
+
+.color1 {
+  background-color: $color1;
+}
+
+.color2 {
+  background-color: $color2;
+}
+
+
+.pills {
+  display:      flex;
+  flex-wrap:    wrap;
+  gap:          4px;
+
+  .pill {
+    padding:            2px 4px;
+    border-radius:      $border-radius;
+    border:             0.8px solid white;
+  }
+}

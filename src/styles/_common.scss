@@ -1,6 +1,10 @@
+
+// ------------------------- SETTINGS -------------------------------------
+
+
 $primary-color:     #2c3749;
-$secondary-color:   #4F709C;
-$light-color:       #acb198;
+$secondary-color:   #65748d;
+$light-color:       #8ea999;
 $light-grey:        #F0F0F0;
 
 $border-radius:     8px;
@@ -47,36 +51,19 @@ a {
 }
 
 
-
-/* responsive for large than 575px screen */
-@media (min-width: 575px) {
-  #root {
-    max-width:     540px;
-    width:         100%;
-    margin-inline: auto;
-}
+// ------------ COMMON ---------------
+span {
+  color: $secondary-color;
 }
 
-/* responsive for large than 768px screen*/
-@media (min-width: 768px) {
-  #root { max-width: 720px; }
-  .two-cols{
-    grid-template-columns: 0.6fr 1fr;
-  }
+.text {
+  display:            flex;
+  flex-direction:     column;
+  justify-content:    space-around;
+  gap:                2rem;
 }
 
-/* responsive for large than 992px screen */
-@media (min-width: 992px) {
-  #root { max-width: 960px; }
-  .two-cols{
-    grid-template-columns: 0.6fr 1fr;
-  }
-}
 
-/* responsive for large than 1200px screen */
-@media (min-width: 1200px) {
-  #root { max-width: 1140px; }
-  .two-cols{
-    grid-template-columns: 0.6fr 1fr;
-  }
+.blue {
+  color:              $secondary-color;
 }
