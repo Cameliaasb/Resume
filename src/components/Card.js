@@ -5,7 +5,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Card = ({ project, languages, topics }) => {
   return (
-    <a href={project.html_url} target="_blank" rel="noopener noreferrer" className={`card text color${Math.ceil(Math.random() * 2)}`} >
+    <a href={project.html_url} target="_blank" rel="noopener noreferrer" className={`card text`} >
 
       <h3> {project.name} </h3>
       <div className='pills'>

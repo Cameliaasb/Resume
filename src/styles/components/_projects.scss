@@ -3,32 +3,21 @@
   padding:        0 8%;
   margin-bottom:  20px;
 }
+
 .card {
   display:        flex;
   flex-direction: column;
   padding:        2rem;
   margin:         1rem;
-  height:         max-content;
   border-radius:  $border-radius;
+  justify-content: flex-start;
   color:         white;
-  height: 100%;
+  height:         100%;
+  background-color: $secondary-color;
 }
 
 .clickable {
   text-align:     center;
-}
-
-
-$color1:             $secondary-color;
-$color2:             $light-color;
-
-
-.color1 {
-  background-color: $color1;
-}
-
-.color2 {
-  background-color: $color2;
 }
 
 
