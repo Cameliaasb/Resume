@@ -28,6 +28,7 @@ const ProjectsAPI = () => {
                 project={project}
                 // languages are in different URL, so a second API call is made
                 languages={<Languages url={project.languages_url} />}
+                topics={project.topics}
               />
             ))
         }

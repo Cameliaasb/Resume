@@ -3,12 +3,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 
-const Card = ({ project, languages }) => {
+const Card = ({ project, languages, topics }) => {
   return (
     <a href={project.html_url} target="_blank" rel="noopener noreferrer" className={`card text color${Math.ceil(Math.random() * 2)}`} >
 
       <h3> {project.name} </h3>
-      <div className='pills'>{languages} </div>
+      <div className='pills'>
+        {languages}
+        {topics.map((topic) => <div className='pill'> {topic} </div>)}
+      </div>
       <div>{project.description} </div>
 
       {project.homepage && (

@@ -11,10 +11,11 @@
   height:         max-content;
   border-radius:  $border-radius;
   color:         white;
+  height: 100%;
 }
 
 .clickable {
-  text-align: center;
+  text-align:     center;
 }
 
 
@@ -34,7 +35,7 @@ $color2:             $light-color;
 .pills {
   display:      flex;
   flex-wrap:    wrap;
-  gap:          4px;
+  gap:          8px;
 
   .pill {
     padding:            2px 4px;
