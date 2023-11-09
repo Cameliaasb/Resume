@@ -1,6 +1,6 @@
 $primary-color:     #2c3749;
-$secondary-color:   #5787c7;
-$light-color:       #ABB194;
+$secondary-color:   #4F709C;
+$light-color:       #acb198;
 $light-grey:        #F0F0F0;
 
 $border-radius:     8px;
@@ -10,6 +10,9 @@ h1, h2, h3, .title {
   font-family:      $title-font
 }
 
+div {
+  display: grid;
+}
 
 #root {
   padding-inline:   16px;
@@ -22,6 +25,7 @@ h1, h2, h3, .title {
 
 body {
   background-color:   $light-grey;
+  line-height:        1.6rem;
 }
 
 .app {
@@ -50,19 +54,29 @@ a {
     max-width:     540px;
     width:         100%;
     margin-inline: auto;
-}}
+}
+}
 
 /* responsive for large than 768px screen*/
 @media (min-width: 768px) {
   #root { max-width: 720px; }
+  .two-cols{
+    grid-template-columns: 0.6fr 1fr;
+  }
 }
 
 /* responsive for large than 992px screen */
 @media (min-width: 992px) {
   #root { max-width: 960px; }
+  .two-cols{
+    grid-template-columns: 0.6fr 1fr;
+  }
 }
 
 /* responsive for large than 1200px screen */
 @media (min-width: 1200px) {
   #root { max-width: 1140px; }
+  .two-cols{
+    grid-template-columns: 0.6fr 1fr;
+  }
 }

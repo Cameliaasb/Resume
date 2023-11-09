@@ -1,0 +1,29 @@
+.two-cols {
+  align-items:          center;
+  gap:                  64px;
+}
+
+.mask {
+  -webkit-mask-image:   url(../../../public/Blog.svg);
+  mask-image:           url(../../../public/Blog.svg);
+  -webkit-mask-repeat:  no-repeat;
+  mask-repeat:          no-repeat;
+  max-width:            320px;
+}
+
+
+span {
+  color: $secondary-color;
+}
+
+.text {
+  display:            flex;
+  flex-direction:     column;
+  justify-content:    space-around;
+  gap:                2rem;
+}
+
+
+.blue {
+  color:              $secondary-color;
+}
