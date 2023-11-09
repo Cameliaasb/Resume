@@ -1,7 +1,14 @@
-$primary-color:     black;
-$secondary-color:   #727959;
+$primary-color:     #2c3749;
+$secondary-color:   #5787c7;
 $light-color:       #ABB194;
-$light-grey:        #F6F6F6;
+$light-grey:        #F0F0F0;
+
+$border-radius:     8px;
+$title-font:        'Manrope', sans-serif;
+
+h1, h2, h3, .title {
+  font-family:      $title-font
+}
 
 
 #root {
@@ -17,16 +24,19 @@ body {
   background-color:   $light-grey;
 }
 
+.app {
+  width:              100%;
+}
 
 a {
   text-decoration:    none;
-  color:              $primary-color;
+  color:              inherit;
 }
 
 *,
 *::before,
 *::after {
-  font-family:       'Noto Sans', sans-serif;
+  font-family:        'Lato', sans-serif;
   margin:             0;
   padding:            0;
   box-sizing:         border-box;
@@ -37,8 +47,8 @@ a {
 /* responsive for large than 575px screen */
 @media (min-width: 575px) {
   #root {
-    max-width: 540px;
-    width: 100%;
+    max-width:     540px;
+    width:         100%;
     margin-inline: auto;
 }}
 
@@ -55,9 +65,4 @@ a {
 /* responsive for large than 1200px screen */
 @media (min-width: 1200px) {
   #root { max-width: 1140px; }
-}
-
-/* responsive for large than 1400px screen */
-@media (min-width: 1400px) {
-  #root { max-width: 1320px; }
 }

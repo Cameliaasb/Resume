@@ -1,20 +1,29 @@
 .navbar {
   display:          flex;
-  font-size:        24px;
+  justify-content:  space-between;
+  align-items:      center;
+  font-size:        16px;
   margin-bottom:    40px;
-  gap:              30px;
+  background-color: white;
+  position:          sticky;
+  top:               0;
+  padding:           1rem 2rem;
+  width:             100%;
+  border-radius:     $border-radius;
 
-  .nav {
-    padding:        8px 48px 8px 0px;
+  * {
+    color:          $primary-color;
+    font-family:    $title-font;
+    font-weight:    bold;
   }
 
   .nav-active {
-    font-weight:    bold;
     color:          $secondary-color;
-    border-bottom:  2px solid $secondary-color;
   }
 
+}
 
-
-
+.links {
+  display:        flex;
+  gap:            1rem;
 }
