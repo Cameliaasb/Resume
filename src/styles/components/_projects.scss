@@ -11,13 +11,13 @@
   margin:         1rem;
   border-radius:  $border-radius;
   justify-content: flex-start;
-  color:         white;
   height:         100%;
-  background-color: $secondary-color;
+  background-color: $lighter-color;
 }
 
 .clickable {
   text-align:     center;
+  color: $primary-color;
 }
 
 
@@ -27,8 +27,8 @@
   gap:          8px;
 
   .pill {
-    padding:            2px 4px;
+    padding:            4px 8px;
     border-radius:      $border-radius;
-    border:             0.8px solid white;
+    border:             0.8px solid $secondary-color;
   }
 }
