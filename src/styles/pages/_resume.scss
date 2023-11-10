@@ -11,3 +11,17 @@
 .padding-left {
   padding-left:   20px;
 }
+
+.vertical-navbar {
+  position:     sticky;
+  top:          100px;
+
+  .btn {
+    background-color: $lighter-color;
+    padding:          1rem 2rem;
+    text-align:       center;
+    margin:           2rem;
+    border-radius:    $border-radius;
+    font-weight:      bolder;
+  }
+}

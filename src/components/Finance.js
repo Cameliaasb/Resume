@@ -2,7 +2,7 @@ import React from 'react';
 
 const Finance = () => {
   return (
-    <div className='section text' id="finance">
+    <div className='section text' id="experience">
       <h2> Finance background </h2>
       <div className='text'>
         <div>
