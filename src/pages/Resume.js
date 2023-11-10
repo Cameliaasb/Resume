@@ -1,12 +1,20 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import ResumePDF from '../components/ResumePDF';
+import { PDFDownloadLink } from '@react-pdf/renderer';
+
 
 const Resume = () => {
+
+
   return (
+
     <div>
       <Navbar />
-
-      <p>RESUME a faire avec react-pdf</p>
+      <ResumePDF />
+      <PDFDownloadLink document={<ResumePDF />} fileName="resume">
+        {({loading}) => (loading ? <button>Loading Document...</button> : <button>Download my Resume</button> )}
+      </PDFDownloadLink>
     </div>
   );
 };
