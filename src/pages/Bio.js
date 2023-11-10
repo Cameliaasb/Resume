@@ -9,7 +9,7 @@ const Bio = () => {
 
     <div>
       <Navbar />
-      <div className="img-col">
+      <div className="colsm-col">
         <div className="mask">
           <img src="picture.jpg" alt="resume" width="320px" className="cover" />
 

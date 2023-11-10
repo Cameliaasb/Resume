@@ -1,0 +1,13 @@
+.section {
+  margin:     40px 0;
+  color:      rgb(49, 49, 49);
+
+  > h2 {
+    color:      $secondary-color;
+  }
+
+}
+
+.padding-left {
+  padding-left:   20px;
+}

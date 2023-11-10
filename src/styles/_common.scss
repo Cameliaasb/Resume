@@ -68,3 +68,10 @@ span {
 .blue {
   color:              $secondary-color;
 }
+
+
+.two-cols, .colsm-col {
+  align-items:          center;
+  gap:                  64px;
+  margin:               20px 0 80px 0;
+}
