@@ -14,11 +14,10 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-
-      <div class="container">
+      <div className="container">
         <h2>Contact Me</h2>
 
-        <div class="contact-infos">
+        <div className="contact-infos">
           <div className='contact-info'>
             <FontAwesomeIcon icon={faEnvelope} className="blue" /> <a href="mailto:camelia.assobhei@gmail.com">camelia.assobhei@gmail.com</a>
 

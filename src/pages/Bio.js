@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faBolt } from '@fortawesome/free-solid-svg-icons';
+import Picture from '../components/picture.jpg'
 
 const Bio = () => {
   return (
@@ -11,7 +12,7 @@ const Bio = () => {
       <Navbar />
       <div className="colsm-col">
         <div className="mask">
-          <img src="picture.jpg" alt="resume" width="320px" className="cover" />
+          <img src={Picture} alt="resume" width="320px" className="cover" />
 
         </div>
 
