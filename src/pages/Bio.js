@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faBolt } from '@fortawesome/free-solid-svg-icons';
-import Picture from '../components/picture.jpg'
+import Picture from '../components/files/picture.jpg'
 
 const Bio = () => {
   return (

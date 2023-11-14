@@ -1,28 +1,28 @@
 .container {
-  padding: 20px;
+  padding:            40px 20px 20px 20px;
   background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+  border-radius:      8px;
+  box-shadow:         0 0 10px rgba(0, 0, 0, 0.1);
+  text-align:         center;
+  align-items:        center;
+  display:            flex;
+  flex-direction:     column;
 }
 
 
 .contact-infos {
-  margin-top: 20px;
-  padding: 20px;
+  margin-bottom:      20px;
+  padding:            20px;
 
   .contact-info {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
+    display:          flex;
+    align-items:      center;
+    gap:              20px;
+    margin:           4px;
   }
 }
 
-.copy-btn {
+.btn {
   background-color:   $light-grey;
   padding:            2px 8px;
   border:             0.5px solid $secondary-color;
